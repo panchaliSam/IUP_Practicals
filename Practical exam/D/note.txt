@@ -1,0 +1,21 @@
+So there are two possible outputs in unsharp masking:
+
+1. Mask only
+        Mask=Original−Smoothed
+
+This gives:
+
+    dark background
+    bright edges/details only
+
+That matches the paper’s Output Image (C).
+
+2. Sharpened image
+            Sharpened=Original+Mask
+
+This gives:
+
+    normal-looking image
+    edges enhanced
+
+That is the result you got before.
